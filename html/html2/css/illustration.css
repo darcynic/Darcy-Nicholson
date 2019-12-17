@@ -2,11 +2,21 @@
     margin: 0;
     padding: 0;
 }
+#ResumeFont{
+    font-family: cambria, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 
+}
+#background-color{
+    background-color: rgb(203, 253, 234);
+}
 #container {
     width: 100vw;
     /* height: 100vh; */
-    background-color: rgba(185, 230, 231, 0.842);
+    background-color: rgba(193, 228, 250, 0.842);
     display: flex;
     justify-content: center;
     align-items: center;

@@ -55,10 +55,15 @@
 
 #scientific-info {
     color: rgba(33, 12, 49, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, Impact, 'Arial Narrow Bold', sans-serif
 }
 
 #scientific-illustration:hover #scientific-info {
     color: rgb(0, 0, 0, 1);
+    top: -40%;
+    left: -160%;
+    height: 15em;
+    width: 20em;
 }
 
 
@@ -69,6 +74,7 @@
     width: 20em;
     position: relative;
     justify-content: center;
+    border-radius: 30px;
 }
 p {
     position: relative;
@@ -111,7 +117,7 @@ p {
 }
 
 .anim{
-    top: 10%;
+    top: 15%;
     width: 100px;
     height: 90px;
     background-color: rgba(43, 93, 158, 0.37);
@@ -120,6 +126,18 @@ p {
     background-repeat: no-repeat;
     /* justify-content: center; */
     align-items: center;
+}
+#Animation {
+    color: rgba(33, 12, 49, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, Impact, 'Arial Narrow Bold', sans-serif
+}
+.anim:hover #Animation{
+    top: -300%;
+    height: 10em;
+    width: 10em;
+    position: relative;
+    justify-content: center;
+    color: rgb(0, 100, 92);
 }
 
 .shop{
@@ -127,30 +145,23 @@ p {
     width: 100px;
     height: 90px;
     background-color: rgba(43, 93, 158, 0.37);
-    margin: 21px;
+    
     background-size: cover;
     background-repeat: no-repeat;
     /* justify-content: center; */
     align-items: center;
 }
 
+#shoptext{
+    color: rgba(33, 12, 49, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, Impact, 'Arial Narrow Bold', sans-serif
+}    
 
-
-
-/*
-#container {
- background image
- position: absolute
-}
-
-.box{
+.shop:hover #shoptext{
+    color: rgb(59, 0, 136);
+    top: 75%;
+    height: 10em;
+    width: 10em;
     position: relative;
-    
+    justify-content: center;
 }
-
-
-
-
-
-
-*/
